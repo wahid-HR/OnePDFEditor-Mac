@@ -1,7 +1,5 @@
 One PDF Editor — macOS (MacBook)
 ================================
-
-This Linux/Windows environment cannot produce a real Mac binary.
 Use GitHub Actions (macos-latest) OR build on a Mac.
 
 A) GitHub Actions (recommended)
