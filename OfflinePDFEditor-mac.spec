@@ -9,6 +9,7 @@ a = Analysis(
     binaries=[],
     datas=[
         ('assets/icon_256.png', 'assets'),
+        ('assets/OnePDFEditor.icns', 'assets'),
         ('assets/icon_128.png', 'assets'),
         ('assets/icon_64.png', 'assets'),
         ('assets/icon_32.png', 'assets'),
@@ -62,7 +63,7 @@ exe = EXE(
 app = BUNDLE(
     exe,
     name='OnePDFEditor.app',
-    icon=None,
+    icon='assets/OnePDFEditor.icns',
     bundle_identifier='studio.yumdrop.onepdfeditor',
     info_plist={
         'CFBundleName': 'One PDF Editor',
